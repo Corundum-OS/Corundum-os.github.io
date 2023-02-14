@@ -35,6 +35,11 @@ main {
     margin: 0 auto;
 }
 
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
 footer {
     width: 80%;
     margin: 0 auto;
