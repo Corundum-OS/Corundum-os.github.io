@@ -13,7 +13,10 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="index.html" class="strongText" title="Corundum">Corundum</a>
+                        <a href="index.html" title="Corundum"><strong>Corundum</strong></a>
+                    </li>
+                    <li>
+                        <a href="views/products.html" title="Produits">Produits</a>
                     </li>
                     <li>
                         <a href="views/support.html" title="Support">Support</a>
@@ -22,9 +25,38 @@
             </nav>
         </header>
         <main>
-            <h1>Corundum</h1>
-            <p>Un projet en cours de développement qui pourra en aider plus d'un !</p>
-            <a href="views/support.html" class="button" title="Support">Support</a>
+            <div class="main__home">
+                <h1 class="home__title">Corundum</h1>
+                <p>Une équipe de développeurs indépendants</p>
+                <p><a href="views/products.html" class="button" title="Nos produits">Nos produits</a></p>
+            </div>
+            <div class="main__products">
+                <h2>Nos produits</h2>
+                <p>Découvrez des produits faits dans le but d'améliorer votre quotidien. Que ce soit pour les particuliers ou pour les professionnels.</p>
+                <article class="products__article--left">
+                    <h3 class="article__title">EasySite</h3>
+                    <p>Une template fait pour tous les développeurs Web. Elle contient de nombreux fichiers utiles à la création de sites.</p>
+                    <p><small>Développé par <a href="https://enioaiello.github.io/" target="_blank">Enio Aiello</a></small></p>
+                    <a href="https://github.com/enioaiello/EasySite" target="_blank" class="button" title="Découvrir">Découvrir</a>
+                </article>
+                <article class="products__article--right">
+                    <h3 class="article__title">Oto-Maintenance</h3>
+                    <p>Un outil de maintenance pour Windows utilisant uniquement des outils intégrés à Windows.</p>
+                    <p><small>Développé par <a href="https://enioaiello.github.io/" target="_blank">Enio Aiello</a></small></p>
+                    <a href="https://github.com/enioaiello/Oto-Maintenance" target="_blank" class="button" title="Découvrir">Découvrir</a>
+                </article>
+                <div class="clear"></div>
+            </div>
+            <div class="main__support">
+                <h2>Support</h2>
+                <p>Vous avez besoins d'aide concernant un produit ? Nous sommes là pour vous aider ! Pour toutes questions, remarques et autre, vous pouvez contacter les développeurs de ce projet.</p>
+                <article class="support__article">
+                    <h3>Serveur Discord</h3>
+                    <p> Le meilleur moyen pour nous contacter, et pour le moment l'unique, il suffit d'ouvrir un ticket et de nous contacter directement.</p>
+                    <a href="https://discord.gg/v8T7gUWMva" target="_blank" class="button" title="Rejoindre">Rejoindre</a>
+                </article>
+                <div class="support__space"></div>
+            </div>
         </main>
         <footer>
             <p>©2023, Corundum. All right reserved.</p>
